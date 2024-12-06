@@ -1,6 +1,6 @@
-![Andel Projects Limited](perpop.png)
-
 # Critical Path Drag and Reverse Drag Calculator for Microsoft Project
+
+<img src="perpop.png" alt="Andel Projects Limited" width="400">
 
 ## Overview
 
