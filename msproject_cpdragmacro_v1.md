@@ -1,4 +1,4 @@
-# &copy 2024 Andy Forrester, Andel Projects
+# &copy; 2024 Andy Forrester, Andel Projects
 
 ## All rights reserved.
 
