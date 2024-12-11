@@ -1,4 +1,4 @@
-# Critical Path Drag and Reverse Drag Calculator for Microsoft Project
+# Critical Path Drag Calculator for Microsoft Project
 
 <img src="perpop.png" alt="Andel Projects Limited" width="400">
 
@@ -6,7 +6,9 @@
 
 **Critical Path Drag** is a project management concept that quantifies the extent to which each critical task delays the project's overall finish date. It provides insights into how much each critical activity contributes to the project's total duration.
 
-**Reverse Drag**, on the other hand, identifies scenarios where shortening the duration of a critical task inadvertently increases the project's finish date. This phenomenon typically arises in complex schedules with dependencies such as Finish-to-Finish (FF), Start-to-Start (SS), or Start-to-Finish (SF) relationships.
+**Reverse Drag**, on the other hand, identifies scenarios where shortening the duration of a critical task inadvertently increases the project's finish date. This phenomenon typically arises in complex schedules with dependencies such as Finish-to-Finish (FF), Start-to-Start (SS), or Start-to-Finish (SF) relationships. 
+
+** An update to this macro is fothcoming to include Reverse Drag calculations
 
 This repository provides a VBA script to calculate **Critical Path Drag** and **Reverse Drag** for tasks in a Microsoft Project file. The script accounts for all dependency types (`Finish-to-Start`, `Start-to-Start`, `Finish-to-Finish`, and `Start-to-Finish`) and stores the calculated values in custom fields for analysis.
 
