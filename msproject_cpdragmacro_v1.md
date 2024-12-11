@@ -2,7 +2,11 @@
 
 ## All rights reserved.
 
-This VBA script calculates the Critical Path Drag for each task with ## finish to Start ##  dependencies in an MS Project file.
+This VBA script calculates the Critical Path Drag for each task with 
+
+## ONLY Finish to Start dependencies in an MS Project file.
+
+## Enhanced macro to cover the more complex Start - Start,  Start - Finish and Finish - Finish dependencies is under development. 
 
 ## Use of this code is permitted for educational and professional purposes.
 
