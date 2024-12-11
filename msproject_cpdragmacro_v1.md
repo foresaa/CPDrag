@@ -6,6 +6,8 @@ This VBA script calculates the Critical Path Drag for each task in an MS Project
 
 ## Use of this code is permitted for educational and professional purposes.
 
+<img src="perpop.png" alt="Andel Projects Limited" width="200">
+
 ```vba
 
 Sub CalculateCriticalPathDrag()
