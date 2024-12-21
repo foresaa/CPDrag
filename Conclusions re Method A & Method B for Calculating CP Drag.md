@@ -1,3 +1,5 @@
+<img src="perpop.png" alt="Andel Projects Limited" width="400">
+
 # Conclusions on Critical Path Drag (Method A vs. Method B)
 
 ## 1. Introduction
@@ -22,9 +24,7 @@ Over time, researchers and practitioners have recognized that **two broad approa
 2. **Method B**: The “Concurrency‐ or Logic‐Based Approach.”
 
    - Conceptually:  
-     \[
-     \text{Drag} = \min(\text{activity duration}, \text{the time it genuinely adds to the project given parallel paths or overlapping tasks})
-     \]
+    <img src="equation" alt="CP Drag Formula" width="400">
    - In code, often done by analyzing overlaps, total floats, and re‐running partial or incremental schedules.
 
    Andy Forrester addopted this approach.
