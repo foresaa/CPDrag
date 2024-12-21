@@ -24,7 +24,7 @@ Over time, researchers and practitioners have recognized that **two broad approa
 2. **Method B**: The “Concurrency‐ or Logic‐Based Approach.”
 
    - Conceptually:  
-    <img src="equation" alt="CP Drag Formula" width="400">
+    <img src="equation.png" alt="CP Drag Formula" width="400">
    - In code, often done by analyzing overlaps, total floats, and re‐running partial or incremental schedules.
 
    Andy Forrester addopted this approach.
