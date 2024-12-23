@@ -26,8 +26,8 @@ The method I used was a bit manual but effective:
 
 The investigation led to identifying the exact cause of the anomalies, which I've now addressed in the latest version of the macro.
 
-Not surprisingly Spephen Deveaux had already predicted the probable cause LOL
-Visuals of invrstigation [here](CP_Drag_forensic_Analysis.pdf)
+Not surprisingly Stephen Deveaux had already predicted the probable cause LOL
+Visuals of investigation [here](CP_Drag_forensic_Analysis.pdf)
 
 
 
