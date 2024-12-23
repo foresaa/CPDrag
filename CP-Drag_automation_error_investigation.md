@@ -1,3 +1,4 @@
+<img src="perpop.png" alt="Andel Projects Limited" width="400">
 
 # CP Drag VBA Anomalies Analysis
 
