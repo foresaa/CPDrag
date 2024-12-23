@@ -1,4 +1,4 @@
-```markdown
+
 # CP Drag VBA Anomalies Analysis
 
 Here's a quick overview of how I set up the **Group view in MS Project** to make analyzing the anomalies easier.
@@ -32,6 +32,4 @@ Let me know if there’s anything you’d like us to tweak further or if you nee
 
 Cheers,  
 [Andy Forrester]
-```
 
-Feel free to tweak or add details to fit your needs! Let me know if you'd like any adjustments.
