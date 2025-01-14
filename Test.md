@@ -2,10 +2,10 @@
 <img src="perpop.png" alt="Andel Projects Limited" width="400">
 
 This document summarizes 
-### **key project scheduling authorities**, 
-### provides their **official URLs**, 
-### outlines the **guidance** they recommend for **maximizing project schedule quality**, 
-### and includes **VBA macros** you can use in Microsoft Project to automate common schedule quality checks.
+### - **key project scheduling authorities**, 
+### - provides their **official URLs**, 
+### - outlines the **guidance** they recommend for **maximizing project schedule quality**, 
+### - and includes **VBA macros** you can use in Microsoft Project to automate common schedule quality checks.
 
 ---
 
