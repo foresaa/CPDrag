@@ -1,5 +1,7 @@
 # Power BI QA Metrics and CP Drag Calculator Preview
 
+<img src="perpop.png" alt="Andel Projects Limited" width="400">
+
 This repository provides tools for enhancing **project quality assurance (QA)** and introducing **Critical Path Drag (CP Drag)** analysis for Microsoft Project (MSP). It includes two key Power BI files tailored for different use cases:
 
 1. **QA Metrics Only (`QA_Metrics_Only.pbix`)**: A streamlined Power BI report focusing solely on QA checks for Microsoft Project schedules.
