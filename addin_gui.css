@@ -1,162 +1,97 @@
-/* Shared styles for both the landing page and the task pane */
-
-/* Ensure task pane uses full height */
-html, body {
-    height: 100%;
+body {
+    font-family: 'Arial', sans-serif; /* Clean and widely supported font */
+    line-height: 1.8; /* Improves readability by increasing line spacing */
+    color: white; /* Default text color */
     margin: 0;
     padding: 0;
 }
 
-/* Footer icon style */
-footer {
-    text-align: center;
-    padding: 20px;
-}
-
-.footer-icon {
-    width: 400px;  /* Adjust the size as needed */
-    height: auto;
-    margin-top: 10px;
-}
-
-/* Style for <p> elements */
-p {
-    font-size: 18px;  /* Adjust the font size as needed */
-    color: #5f5d5d;   /* Change the color to your preferred hex code */
-    line-height: 1.8; /* Optional: improves readability */
-}
-
-/* Task pane-specific styles */
-  /* Task pane-specific styles */
-.task-pane {
-    background-image   : url('Dragonfly.png');  /* Replace with your image URL */
-    background-size    : cover;                 /* Ensures the image covers the entire area */
-    background-position: center;                /* Centers the image */
-    background-repeat  : no-repeat;             /* Prevents repeating the image */
-    height             : 200px;                 /* Ensures the height is consistent */
-    border             : none;                  /* Removes border for a cleaner look */
-    display            : flex;
-    align-items        : center;
-    justify-content    : center;
-    color              : white;                 /* Text color if needed */
-    font-size          : 18px;                  /* Font size of placeholder text */
-    font-style         : italic;                /* Placeholder text style */
-}
-
-/* Link styles */
-a {
-    color: rgb(248, 242, 242); /* Makes links white */
-    text-decoration: none; /* Removes underline from links */
-}
-
-a:hover {
-    text-decoration: underline; /* Underline links on hover for visibility */
-}
-
-/* Body background and text styles */
-body {
-    background-color: #7b7b7b;            /* Dark background for better contrast */
-    color           : white;              /* Default text color is white */
-    font-family     : Arial, sans-serif;
-    line-height     : 1.6;
-    margin          : 20px;
-}
-
-/* Header styles */
-header h1 {
-    color: #3962f8; /* Green for header text */
-    text-align: center;
-}
-
-/* Content container styles */
-.container {
-    max-width: 1000px;
-    margin: auto;
-}
-
-/* Footer styles */
-footer {
-    text-align: center;
-    margin-top: 20px;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Landing page-specific styles */
+/* Landing Page Styles */
 .landing-page {
-    background-color: #f1eaea;
-    background-image: url('Dragonfly.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height:auto;  /* Ensure the background image fills the entire height */
+    background-image: url('Dragonfly.png'); /* Replace with your actual image path */
+    background-size: cover; /* Ensures the image covers the viewport */
+    background-position: top center; /* Aligns the background image for logo visibility */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column; /* Allows for vertical stacking */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
 }
 
-/* Other styles */
+/* Container for content */
 .container {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-header {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark translucent overlay for contrast */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px; /* Restrict width for better readability */
     text-align: center;
-    padding: 20px 0;
-    font-style: oblique;
 }
 
-h1 {
-    font-size: 2em;
+/* Header Styles */
+header h1 {
+    font-size: 2.5rem; /* Larger font size for the title */
+    font-weight: bold; /* Makes the title stand out */
+    color: #FFD700; /* Golden color for emphasis */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Subtle text shadow for better visibility */
     margin-bottom: 20px;
 }
 
-.intro, .instructions {
-    margin-top: 150px;  /* Moves the boxes down */
-    padding: 15px;
-    background-color: #787171;
-    border-radius: 8px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    width: 60%;  /* Adjust this to control the width of the boxes */
-    margin-left: 20px;  /* Push the text slightly away from the left */
-    padding: 20px;  /* Padding inside the boxes */
-    background-color: rgba(120, 120, 120, 0.9);  /* Slight transparency for the background */
-    border-radius: 8px;  /* Rounds the corners */
+/* Paragraph Styles */
+p {
+    font-size: 1.2rem; /* Slightly larger font size for body text */
+    color: white; /* Maintains readability against the background */
+    margin-bottom: 20px;
 }
 
+/* Documentation Links */
 h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 1.8rem; /* Larger font size for headings */
+    font-weight: bold; /* Makes section headings stand out */
+    margin-top: 30px;
+    color: #4CAF50; /* Accent color for headings */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Subtle shadow */
 }
 
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style: none; /* Removes default list bullets */
+    padding: 0;
+    margin: 20px 0;
 }
 
-a {
-    color: #f5f6f8;
-    text-decoration: none;
+ul li {
+    margin-bottom: 10px;
 }
 
-a:hover {
-    text-decoration: underline;
+ul li a {
+    font-size: 1.2rem; /* Readable font size for links */
+    font-weight: 600; /* Slightly bold for emphasis */
+    color: #00BFFF; /* Blue for links */
+    text-decoration: none; /* Removes underline for a cleaner look */
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
-    color: #555;
+ul li a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #FFD700; /* Golden hover effect */
 }
 
-/* Footer icon style */
-.footer-icon {
-    width: 400px;  /* Adjust the size of the icon in the footer */
-    height: auto;
-    margin-top: 10px;
+/* Footer Styles */
+footer p {
+    font-size: 1rem; /* Smaller, yet readable footer text */
+    color: white;
+    margin-top: 30px;
+    opacity: 0.8; /* Slightly muted text color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    p, ul li a {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
 }
