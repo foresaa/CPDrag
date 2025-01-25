@@ -22,7 +22,7 @@ footer {
 /* Style for <p> elements */
 p {
     font-size: 18px;  /* Adjust the font size as needed */
-    color: #000000;   /* Change the color to your preferred hex code */
+    color: #5f5d5d;   /* Change the color to your preferred hex code */
     line-height: 1.8; /* Optional: improves readability */
 }
 
@@ -33,19 +33,19 @@ p {
     background-size    : cover;                 /* Ensures the image covers the entire area */
     background-position: center;                /* Centers the image */
     background-repeat  : no-repeat;             /* Prevents repeating the image */
-    height: 800px; /* Ensures the height is consistent */
-    border: none; /* Removes border for a cleaner look */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white; /* Text color if needed */
-    font-size: 18px; /* Font size of placeholder text */
-    font-style: italic; /* Placeholder text style */
+    height             : 200px;                 /* Ensures the height is consistent */
+    border             : none;                  /* Removes border for a cleaner look */
+    display            : flex;
+    align-items        : center;
+    justify-content    : center;
+    color              : white;                 /* Text color if needed */
+    font-size          : 18px;                  /* Font size of placeholder text */
+    font-style         : italic;                /* Placeholder text style */
 }
 
 /* Link styles */
 a {
-    color: white; /* Makes links white */
+    color: rgb(248, 242, 242); /* Makes links white */
     text-decoration: none; /* Removes underline from links */
 }
 
@@ -55,7 +55,7 @@ a:hover {
 
 /* Body background and text styles */
 body {
-    background-color: #BEBEBE;            /* Dark background for better contrast */
+    background-color: #7b7b7b;            /* Dark background for better contrast */
     color           : white;              /* Default text color is white */
     font-family     : Arial, sans-serif;
     line-height     : 1.6;
@@ -64,13 +64,13 @@ body {
 
 /* Header styles */
 header h1 {
-    color: #4CAF50; /* Green for header text */
+    color: #3962f8; /* Green for header text */
     text-align: center;
 }
 
 /* Content container styles */
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -90,7 +90,7 @@ body {
 /* Landing page-specific styles */
 .landing-page {
     background-color: #f1eaea;
-    background-image: url('https://foresaa.github.io/MSTPADDIN/Pink_Pilot.png');
+    background-image: url('Dragonfly.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
