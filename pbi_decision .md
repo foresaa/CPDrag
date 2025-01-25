@@ -1,5 +1,7 @@
 # Project Quality Assurance with Power BI: A Modern Approach
 
+<img src="perpop.png" alt="Andel Projects Limited" width="400">
+
 Managing complex projects effectively requires not only robust planning tools but also sophisticated mechanisms for monitoring quality and performance. When developing an add-in to enhance Microsoft Project (MSP) functionality, I faced a struggle coming to a decision: how best to handle **Quality Assurance (QA)** metrics and analysis. After considering VBA macros and MSP’s built-in reporting features, I ultimately chose Power BI as the platform for QA reporting. Here’s why.
 
 At the same time, the development of the **CP Drag Add-In** is underway. This tool is designed to calculate and display critical path drag, an essential metric for understanding the impact of tasks on project timelines. While the add-in is focused on delivering in-app insights directly within MSP, its metrics and insights will seamlessly integrate with this Power BI initiative, creating a holistic solution for project management optimization.
