@@ -1,5 +1,7 @@
 # Requirements for Power BI QA Metrics and CP Drag Calculator
 
+<img src="perpop.png" alt="Andel Projects Limited" width="400">
+
 This document outlines the requirements for setting up and running the **Power BI QA Metrics and CP Drag Calculator** solution. It includes details about the required Python interpreter, libraries, Power BI, MS Project, and the specific custom fields needed for the CP Drag Calculator.
 
 ---
