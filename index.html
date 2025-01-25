@@ -4,50 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Power BI QA and CP Drag</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-      }
-      h1 {
-        text-align: center;
-        color: #4caf50;
-      }
-      .content {
-        max-width: 800px;
-        margin: auto;
-      }
-      .placeholder {
-        width: 100%;
-        height: 300px;
-        background-color: #f0f0f0;
-        border: 2px dashed #ccc;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 18px;
-        color: #999;
-      }
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      li {
-        margin: 10px 0;
-      }
-      a {
-        text-decoration: none;
-        color: #007bff;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
+    <link rel="stylesheet" href="addin_gui.css" />
   </head>
   <body>
-    <div class="content">
-      <h1>Welcome to the Power BI QA and CP Drag Project</h1>
+    <div class="container">
+      <header>
+        <h1>Welcome to the Power BI QA and CP Drag Project</h1>
+      </header>
       <p>
         This project provides tools and resources to enhance project quality
         assurance (QA) and critical path drag (CP Drag) analysis using Microsoft
@@ -56,28 +19,34 @@
         insights.
       </p>
 
-      <div class="placeholder">Image Placeholder</div>
+      <div class="placeholder task-pane">Image Placeholder</div>
 
       <h2>Documentation Links</h2>
       <ul>
-        <li>
-          <a href="REQUIREMENTS.md" target="_blank"
-            >Requirements for Power BI QA and CP Drag</a
-          >
-        </li>
         <li>
           <a href="README.md" target="_blank"
             >Overview of the Power BI QA and CP Drag Solution</a
           >
         </li>
-        <li><a href="SETUP.md" target="_blank">Setup Instructions</a></li>
-        <li><a href="USER_GUIDE.md" target="_blank">User Guide</a></li>
+
+        <li>
+          <a
+            href="Requirements Power BI QA Metrics and CP Drag Calculator.md"
+            target="_blank"
+            >Requirements for Power BI QA and CP Drag</a
+          >
+        </li>
+
+        <li>
+          <a href="pbi_decision.md" target="_blank">Design Background</a>
+        </li>
       </ul>
 
-      <p>
-        If you have any questions or feedback, feel free to reach out or
-        contribute to the project!
-      </p>
+      <footer>
+        <p>
+          For questions or feedback, reach out or contribute to the project!
+        </p>
+      </footer>
     </div>
   </body>
 </html>
